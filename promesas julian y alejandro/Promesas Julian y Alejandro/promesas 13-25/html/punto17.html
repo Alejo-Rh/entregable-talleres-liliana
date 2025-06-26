@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../js/punto16.js "defer ></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-6">
+
+  <h1 class="text-3xl font-bold mb-6">Simulación de Base de Datos</h1>
+
+  <input 
+    type="number" 
+    id="inputId" 
+    placeholder="Ingresa ID de usuario" 
+    class="border rounded px-3 py-2 mb-4 w-64"
+    min="1"
+  />
+
+  <button 
+    id="btnBuscar" 
+    class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition mb-4"
+  >
+    Buscar Usuario
+  </button>
+
+  <div id="resultado" class="text-gray-700 text-lg min-h-[3rem]"></div>
+
+</body>
+</html>

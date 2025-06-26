@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ejercicio 5 - Cargar imagen</title>
+<style>
+  /* Centrar todo el contenido vertical y horizontalmente */
+  body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  color: #f1f1f1;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff88;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  border: 2px solid #00ffff;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #00ffff;
+  color: #121212;
+  transform: scale(1.05);
+}
+
+#resultado {
+  margin-top: 25px;
+  white-space: pre-wrap;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  color: #f1f1f1;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  border-left: 4px solid #00ffff;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Ejercicio 5 - Cargar imagen</h1>
+
+<button id="btnEjecutar">Ejecutar</button>
+
+<div id="resultado"></div>
+
+<script src="ejercicio5.js"></script>
+</body>
+</html>

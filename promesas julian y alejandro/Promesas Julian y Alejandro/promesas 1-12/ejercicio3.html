@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ejercicio 3 - Llamar a una API con fetch</title>
+<style>
+  /* Centrar todo el contenido vertical y horizontalmente */
+ body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #00796b;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+button {
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #00796b;
+  transform: scale(1.05);
+}
+
+#resultado {
+  margin-top: 25px;
+  white-space: pre-wrap;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  padding: 18px;
+  background-color: #f0fdfb;
+  border-radius: 10px;
+  color: #004d40;
+  font-size: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #009688;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Ejercicio 3 - Llamar a una API con fetch</h1>
+
+<button id="btnEjecutar">Ejecutar</button>
+
+<div id="resultado"></div>
+
+<script src="ejercicio3.js"></script>
+</body>
+</html>

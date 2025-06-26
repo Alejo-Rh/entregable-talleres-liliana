@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ejercicio 9 - Leer múltiples archivos (simulados) en paralelo</title>
+<style>
+  /* Centrar todo el contenido vertical y horizontalmente */
+  body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f3eeee;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+button {
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.03);
+}
+
+#resultado {
+  margin-top: 25px;
+  white-space: pre-wrap;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #2c3e50;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border-left: 5px solid #3498db;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Ejercicio 9 - Leer múltiples archivos (simulados) en paralelo</h1>
+
+<button id="btnEjecutar">Ejecutar</button>
+
+<div id="resultado"></div>
+
+<script src="ejercicio9.js"></script>
+</body>
+</html>

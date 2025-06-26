@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ejercicio 8 - Cadena de promesas (login → obtener perfil)</title>
+<style>
+  /* Centrar todo el contenido vertical y horizontalmente */
+  body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e4984d, #e2d1c3);
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: #6c5b7b;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ca9fa3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #46353a;
+  transform: scale(1.05);
+}
+
+#resultado {
+  margin-top: 25px;
+  white-space: pre-wrap;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff0f5;
+  border-radius: 12px;
+  color: #4a4a4a;
+  font-size: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #795c5f;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Ejercicio 8 - Cadena de promesas (login → obtener perfil)</h1>
+
+<button id="btnEjecutar">Ejecutar</button>
+
+<div id="resultado"></div>
+
+<script src="ejercicio8.js"></script>
+</body>
+</html>

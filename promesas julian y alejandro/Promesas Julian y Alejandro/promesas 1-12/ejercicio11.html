@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ejercicio 11 - Simular compra online</title>
+<style>
+  /* Centrar todo el contenido vertical y horizontalmente */
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e0f7fa; /* azul claro */
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #00695c; /* teal oscuro */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #00897b; /* teal medio */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40; /* teal más oscuro */
+}
+
+#resultado {
+  margin-top: 20px;
+  white-space: pre-wrap;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  color: #004d40;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #00897b;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Ejercicio 11 - Simular compra online</h1>
+
+<button id="btnEjecutar">Ejecutar</button>
+
+<div id="resultado"></div>
+
+<script src="ejercicio11.js"></script>
+</body>
+</html>

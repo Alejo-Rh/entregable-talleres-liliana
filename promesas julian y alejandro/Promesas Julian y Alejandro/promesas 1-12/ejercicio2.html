@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ejercicio 2 - Esperar cierto tiempo (setTimeout)</title>
+<style>
+  /* Centrar todo el contenido vertical y horizontalmente */
+  body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #c3cfe2, #e2eafc);
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2em;
+  color: #4b0082;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+  background-color: #4b0082;
+  transform: scale(1.05);
+}
+
+#resultado {
+  margin-top: 20px;
+  white-space: pre-wrap;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Ejercicio 2 -Esperar cierto tiempo (setTimeout)</h1>
+
+<button id="btnEjecutar">Ejecutar</button>
+
+<div id="resultado"></div>
+
+<script src="ejercicio2.js"></script>
+</body>
+</html>
